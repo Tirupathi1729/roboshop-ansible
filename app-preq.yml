@@ -10,7 +10,7 @@
 - name: Create App Directiory
   ansible.builtin.file:
     path: /app
-    state: directiory
+    state: directory
 
 
 - name: Download And extract application content
