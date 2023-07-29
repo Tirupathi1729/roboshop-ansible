@@ -1,5 +1,5 @@
 - name: MongoDB Setup
-  hosts: aal
+  hosts: all
   become: yes
   tasks:
     - name: Copy MongoDB yum repo files
