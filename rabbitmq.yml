@@ -21,7 +21,7 @@
 
     - name: add application user
       community.rabbitmq.rabbitmq_user:
-        usr: roboshop
+        user: roboshop
         password: roboshop123
         vhost: /
         configure_priv: .*
